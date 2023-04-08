@@ -4,19 +4,19 @@
 
 @font-face {
   font-family: "MacPawFixel-Bold";
-  src: url(font/MacPawFixelText-Bold.woff2) format("woff2");
+  src: url("/font/MacPawFixelText-Bold.woff2") format("woff2");
 }
 @font-face {
   font-family: "MacPawFixel-Semibold";
-  src: url(font/MacPawFixelText-SemiBold.woff2) format("woff2");
+  src: url("/font/MacPawFixelText-SemiBold.woff2") format("woff2");
 }
 @font-face {
   font-family: "MacPawFixel-Medium";
-  src: url(font/MacPawFixelText-Medium.woff2) format("woff2");
+  src: url("/font/MacPawFixelText-Medium.woff2") format("woff2");
 }
 @font-face {
   font-family: "MacPawFixel-Regular";
-  src: url(font/MacPawFixelText-Regular.woff2) format("woff2");
+  src: url("/font/MacPawFixelText-Regular.woff2") format("woff2");
 }
 body {
   overflow-x: hidden;
