@@ -914,6 +914,7 @@ footer .container .second-section .footer__copyright p {
   }
   body header .container .row .top-navigation {
     height: 36px;
+    padding: 0 4px;
   }
   body header .container .row .top-navigation ul {
     margin: 0;

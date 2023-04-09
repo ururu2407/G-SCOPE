@@ -119,12 +119,9 @@ main {
                     .swiper {
                         margin-left: none;
                     }
-
                     .slide-content {
-                        background-color: rgba($color: #000000, $alpha: 1.0);
                         border-radius: 26px;
-                        height: 0;
-                       
+                        height: 100%;                       
                         .slide-news {
                             margin-left: 0;
                             height: 310px;

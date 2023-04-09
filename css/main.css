@@ -104,9 +104,8 @@ main .container .news .left-content .banner-content .swiper {
   margin-left: none;
 }
 main .container .news .left-content .banner-content .slide-content {
-  background-color: black;
   border-radius: 26px;
-  height: 0;
+  height: 100%;
 }
 main .container .news .left-content .banner-content .slide-content .slide-news {
   margin-left: 0;
