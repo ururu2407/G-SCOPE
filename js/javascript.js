@@ -10,11 +10,11 @@ let myBlockSlider = new Swiper('.banner-content',{
     //     control: myBgSlider
     // },
     loop: true,
-    // autoplay: {
-    //     delay: 5000,
-    //     disableOnInteraction: false,
-    //     pauseOnMouseEnter: true,
-    // },
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+    },
 });
 
 let myBgSlider = new Swiper('.swiper-bg',{

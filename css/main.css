@@ -106,7 +106,7 @@ main .container .news .left-content .banner-content .swiper {
 main .container .news .left-content .banner-content .slide-content {
   background-color: black;
   border-radius: 26px;
-  height: 100%;
+  height: 0;
 }
 main .container .news .left-content .banner-content .slide-content .slide-news {
   margin-left: 0;

@@ -511,7 +511,7 @@ body header .container .row .logo .logo-md {
   display: none;
 }
 body header .container .row .top-navigation {
-  padding: 0px 4px;
+  padding: 0px 28px;
   height: 44px;
   transition: all 0.3s ease;
 }
