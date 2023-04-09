@@ -84,10 +84,31 @@ $body-medium-medium: (
 );
 $body-medium-regular: (
     family: "MacPawFixel-Regular",
-    weight: 300,
+    weight: 400,
     size: PXtoREM(16px),
     height: 24px,
     spacing: 0.25px
+);
+$body-small-regular: (
+    family: "MacPawFixel-Regular",
+    weight: 400,
+    size: PXtoREM(16px),
+    height: 24px,
+    spacing: 0.25px    
+);
+$body-small-medium: (
+    family: "MacPawFixel-Medium",
+    weight: 500,
+    size: PXtoREM(16px),
+    height: 24px,
+    spacing: 0.25px    
+);
+$body-small-semibold: (
+    family: "MacPawFixel-Semibold",
+    weight: 600,
+    size: PXtoREM(16px),
+    height: 24px,
+    spacing: 0.25px    
 );
 $headline-spec-bold: (
     family: "MacPawFixel-Bold",
@@ -138,6 +159,7 @@ $mobile-label-small-semibold: (
     height: 16px,
     spacing: 1px
 );
+
 $mobile-body-large-regular: (
     family: "MacPawFixel-Regular",
     weight: 400,

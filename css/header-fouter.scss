@@ -11,21 +11,25 @@
     src: url('./font/MacPawFixelText-Bold.woff2') format('woff2');
     // font-weignt: 500;
 }
+
 @font-face {
     font-family: "MacPawFixel-Semibold";
     src: url('./font/MacPawFixelText-SemiBold.woff2') format('woff2');
     // font-weignt: 500;
 }
+
 @font-face {
     font-family: "MacPawFixel-Medium";
     src: url('./font/MacPawFixelText-Medium.woff2') format('woff2');
     // font-weignt: 500;
 }
+
 @font-face {
     font-family: "MacPawFixel-Regular";
     src: url('./font/MacPawFixelText-Regular.woff2') format('woff2');
     // font-weignt: 500;
 }
+
 @mixin transform($transform) {
     -webkit-transform: $transform;
     -moz-transform: $transform;
@@ -907,7 +911,6 @@ footer {
                     .email__action {
                         form {
                             height: 56px;
-                            margin-bottom: 20px;
                             width: 100%;
                             border-radius: 18px;
 
@@ -971,17 +974,32 @@ footer {
                                         }
                                     }
                                 }
+
+                                
                             }
                         }
-
+                        .error-message {
+                            width: 64%;
+                            color: $secondary-orange-500;
+                            font-family: map-get($body-small-regular, family);
+                            font-weight: map-get($body-small-regular, weight);
+                            line-height: map-get($body-small-regular, height);
+                            letter-spacing: map-get($body-small-regular, spacing);
+                            font-size: map-get($body-small-regular, size);
+                            // content: "";
+                            visibility: hidden;
+                            transition: all 1s ease;
+                            margin: 7px 0;
+                        }
                         button {
                             width: 116px;
+                            margin-top: 20px;
                             height: 40px;
                             color: $neutral-blackwhite-600;
                             background: none;
                             border-radius: 7px;
                             border: 1px solid $neutral-blackwhite-600;
-                            font-family: map-get($label-large-medium, family);
+                            font-family: map-get($label-medium-medium, family);
                             font-weight: map-get($label-medium-medium, weight);
                             line-height: map-get($label-medium-medium, height);
                             letter-spacing: map-get($label-medium-medium, spacing);
@@ -1046,11 +1064,17 @@ footer {
                     }
 
                     &.follow_us {
-                        ul {
-                            padding-left: 4px;
-                            li {
+                        // width: 208px;
+                        margin: 0;
 
+                        ul {
+                            padding-left: 17px;
+
+                            li {
+                                width: 52px;
+                                height: 52px;
                                 padding: 0;
+
                                 a {
                                     height: 48px;
                                     width: 48px;

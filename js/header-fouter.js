@@ -89,3 +89,21 @@ input_email.addEventListener('focus', () => {
 input_email.addEventListener('blur', () => {
     document.querySelector('#svg path').classList.remove('focused');
 });
+const emailInput = document.querySelector('.input__email');
+const errorMessage = document.querySelector('.error-message');
+
+emailInput.addEventListener('blur', () => {
+    if (emailInput.validity.valueMissing) {
+        errorMessage.textContent = 'Enter the email';
+        errorMessage.style.visibility = 'visible';
+        errorMessage.style.transition = '0.3s';
+    } else if (emailInput.validity.typeMismatch) {
+        errorMessage.textContent = 'The email is incorrect. \nExample: gscope@gmail.com';
+        errorMessage.style.visibility = 'visible';
+        errorMessage.style.transition = '0.3s';
+    } else {
+        errorMessage.textContent = '';
+        errorMessage.style.visibility = 'hidden';
+        errorMessage.style.transition = '0.3s';
+    }
+});

@@ -754,7 +754,6 @@ footer .container .first-section .footer__subscribe .newsletter__footer .headlin
 }
 footer .container .first-section .footer__subscribe .newsletter__footer .email__action form {
   height: 56px;
-  margin-bottom: 20px;
   width: 100%;
   border-radius: 18px;
 }
@@ -796,8 +795,21 @@ footer .container .first-section .footer__subscribe .newsletter__footer .email__
 footer .container .first-section .footer__subscribe .newsletter__footer .email__action form .hover input[type=email]:focus ~ #svg g path {
   fill: #fcfcfc;
 }
+footer .container .first-section .footer__subscribe .newsletter__footer .email__action .error-message {
+  width: 64%;
+  color: #ff5c00;
+  font-family: "MacPawFixel-Regular";
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  font-size: 1rem;
+  visibility: hidden;
+  transition: all 1s ease;
+  margin: 7px 0;
+}
 footer .container .first-section .footer__subscribe .newsletter__footer .email__action button {
   width: 116px;
+  margin-top: 20px;
   height: 40px;
   color: #ABABAB;
   background: none;
@@ -852,10 +864,15 @@ footer .container .first-section .footer__links div.contacts ul .author svg {
 footer .container .first-section .footer__links div.contacts ul .author svg path {
   fill: #28d377;
 }
+footer .container .first-section .footer__links div.follow_us {
+  margin: 0;
+}
 footer .container .first-section .footer__links div.follow_us ul {
-  padding-left: 4px;
+  padding-left: 17px;
 }
 footer .container .first-section .footer__links div.follow_us ul li {
+  width: 52px;
+  height: 52px;
   padding: 0;
 }
 footer .container .first-section .footer__links div.follow_us ul li a {
@@ -874,7 +891,7 @@ footer .container .second-section .footer__copyright p {
   margin-bottom: 4px;
   color: #ABABAB;
   font-family: "MacPawFixel-Regular";
-  font-weight: 300;
+  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.25px;
   font-size: 1rem;
