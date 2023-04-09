@@ -59,7 +59,14 @@ $('.header__burger, .overlay').click(function () {
     $('.overlay').toggleClass('show');
     $('.mobile__menu').toggleClass('show');
     $('body').toggleClass('overflow');
+    
 });
+var menuIcon = document.querySelector('.header__burger');
+    var menu = document.querySelector('.mobile__menu');
+
+    menuIcon.addEventListener('click', function(){
+        menu.scrollTop = 0;
+    });
 $('.search__mobile, .close__mobile, .overlay_search').click(function () {
     $('.search__mobile, .close__mobile').toggleClass('clicked');
     $('.overlay__search').toggleClass('show');
