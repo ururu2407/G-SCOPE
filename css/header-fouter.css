@@ -662,6 +662,8 @@ body header .container .sign-up-search .search__mobile svg path {
 }
 body header .container .sign-up-search .search__mobile:hover {
   cursor: pointer;
+  border-radius: 25px;
+  background-color: #ABABAB;
 }
 body header .container .sign-up-search .profile {
   padding: 12px;

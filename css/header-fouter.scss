@@ -796,6 +796,8 @@ body {
 
                     &:hover {
                         cursor: pointer;
+                        border-radius: 25px;
+                        background-color: $neutral-blackwhite-600;
                     }
                 }
 
